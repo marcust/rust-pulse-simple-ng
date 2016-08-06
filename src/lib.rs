@@ -41,7 +41,7 @@ pub enum PaErrorCode {
     Unknown
 }
 
-fn map_error_code(error: c_uint) -> PaErrorCode {
+pub fn map_error_code(error: c_uint) -> PaErrorCode {
     match error {
         PA_OK => PaErrorCode::Ok,
         PA_ERR_ACCESS => PaErrorCode::ErrAccess,
