@@ -1,0 +1,11 @@
+[package]
+name = "pulse-simple-ng"
+version = "0.1.0"
+authors = ["Marcus Thiesen <marcus@thiesen.org>"]
+description = "Another simple Pulseaudio crate for the Rust language"
+repository = "https://github.com/marcust/rust-pulse-simple-ng"
+
+[dependencies]
+log             = "0.3.5"
+libpulse-sys    = { git = "https://github.com/astro/libpulse-sys" }
+libc            = "0.2.13"
