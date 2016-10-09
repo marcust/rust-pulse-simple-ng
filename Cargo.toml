@@ -8,4 +8,4 @@ repository = "https://github.com/marcust/rust-pulse-simple-ng"
 [dependencies]
 log             = "0.3.5"
 libpulse-sys    = { git = "https://github.com/astro/libpulse-sys" }
-libc            = "0.2.13"
+libc            = "~0.2.15"
